@@ -27,6 +27,5 @@ public class LogTraceAdvice implements MethodInterceptor {
             logTrace.exception(traceStatus, e);
             throw e;
         }
-
     }
 }
